@@ -7,5 +7,5 @@
   "api-ipcs-enabled":true,
   "index-enabled":true,
   "log-display-level":"ERROR",
-  "log-level": "DEBUG"
+  "log-level": "ERROR"
 }

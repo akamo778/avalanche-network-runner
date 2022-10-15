@@ -1,4 +1,6 @@
 {
   "http-port": 9652,
-  "staking-port": 9653
+  "staking-port": 9653,
+  "log-display-level":"DEBUG",
+  "log-level": "DEBUG"
 }
