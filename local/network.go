@@ -571,7 +571,7 @@ func (ln *localNetwork) addNode(nodeConfig node.Config) (node.Node, error) {
 	// so this node won't try to use itself as a beacon.
 	if nodeConfig.IsBeacon {
 		err = ln.bootstraps.Add(beacon.New(nodeID, ips.IPPort{
-			IP:   net.IPv6loopback,
+			IP:   net.IPv4zero,
 			Port: nodeData.p2pPort,
 		}))
 	}
